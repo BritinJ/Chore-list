@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chores</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"> </script>
+</head>
+
+<body>
+
+    <!-- container that holds daily tab and info -->
+    <div class="daily tni">
+
+        <!-- this is the container for the daily tab buttons-->
+        <div class="chore days">
+            <button id="init-day" class="tab tabd" onclick="chooseDay(event,'Today')">Today</button>
+            <button class="tab tabd" onCLick="chooseDay(event,'Tomorrow')">Tomorrow</button>
+        </div>
+
+        <!-- This is the content for today-->
+        <div id= "Today"class="info day-info">
+            <h1> heyo </h1>
+            <p>hey this is what you have to accomplish today :/</p>
+        </div>
+
+        <!-- This is the content for tomorrow-->
+        <div id="Tomorrow" class="info day-info">
+            <h1> afternoon </h1>
+            <p>hey this is what you have to get done tomorrow :/</p>
+        </div>
+
+    </div>
+
+
+    <!-- container that holds Weekly tab and info -->
+    <div class="weekly tni">
+
+        <!-- this is the container for the daily tab buttons-->
+        <div class="chore weekly">
+            <button id="init-week" class="tab tabw" onclick="chooseWeek(event,'ThisWeek')">This week</button>
+            <button class="tab tabw" onclick="chooseWeek(event,'NextWeek')">Next Week</button>
+        </div>
+
+        <!-- This is the content for this week-->
+        <div id="ThisWeek" class="info week-info">
+            <h1> heyo </h1>
+            <p>hey this is this week :/</p>
+        </div>
+
+        <!-- This is the content for next week-->
+        <div id="NextWeek" class="info week-info">
+            <h1> afternoon </h1>
+            <p>hey this is next week baby</p>
+        </div>
+    </div>
+</body>
+
+</html>

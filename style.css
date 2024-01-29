@@ -1,0 +1,40 @@
+/* Style the tab */
+.chore  {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: lightgreen;
+  }
+  .tni{
+    margin: 60px;
+
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab{
+    background-color:inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.8s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab:hover{
+    background-color: darkgreen;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab.active {
+    background-color: darkgreen;
+  }
+  
+  /* Style the tab content */
+  .info {
+    background-color: lightseagreen;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
